@@ -1,0 +1,3 @@
+<app-parenttochild [item]="parentData"></app-parenttochild>
+<app-childtoparent (childData)="getData($event)"></app-childtoparent>
+<h4>{{childDataIs}}</h4>
